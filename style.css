@@ -1,0 +1,261 @@
+ * {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  body {
+    font-family: 'Courier';
+    }
+  
+  .contenedor{
+    padding: 5% 0;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+  }
+  .titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px; ;
+  }
+  /* Header */
+  
+  header{
+    width: 1000%px;
+    height: 600px;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(255, 194, 204, 0.623), hsla(300, 100%, 25%, 0.582)), url(./Img/Cara\ de\ gato.png);
+    background: linear-gradient(to right, hsla(350, 100%, 88%, 0.63), hsla(300, 100%, 25%, 0.616)), url(./Img/Cara\ de\ gato.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  nav{
+    text-align:end;
+    padding: 30px 50px 0 0;
+  }
+  
+  nav > a{
+    color:rgb(242, 243, 243);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  nav > a:hover{
+    text-decoration: underline;
+  }
+  .wave{
+    position: absolute;
+    bottom:0 ;
+    width: 100%;
+  }
+  
+  header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .textos-header h1{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+  }
+    .textos-header h2{
+      font-size: 30px;
+      font-weight: 300;
+      color: aliceblue;
+      text-align: center;
+  }
+  
+  /* About us*/
+  .contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  
+  .imagen-about-us{
+    width: 30%;
+    height: 20%;
+    padding: 10px; 
+    border: 1px solid rgb(20, 20, 20); 
+    
+  }
+  
+  .sobre-nosotros .contenido-textos{
+    width: 48%;
+  }
+  
+  .contenido-textos h3{
+    margin-bottom: 15px;
+  }
+  
+  .contenido-textos h3 span{
+  background: #4d0686;
+  color: aliceblue;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  margin-right: 5px;
+  text-align:center;
+  }
+  
+  .contenido-textos p{
+    padding: 0px 0px 30px 20px; 
+    font-weight: 300px;
+    text-align:start;
+    flex-direction: column;
+    
+  }
+  .contenido-textos h1{
+    padding: 0px 0px 30px 15px; 
+    font-weight: 300px;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  /* CONOCIMIENTOS*/
+  
+  .Portafolio{
+    background: hsla(300, 67%, 54%, 0.664);
+  }
+  
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .cards .card{
+    background: rgb(245, 131, 235);
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    
+    
+  }
+  .cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid beige;
+    border-radius:50px ;
+    display: block;
+    position: center;
+  }
+  
+  .cards .card > .contenido-texto-card{
+    width:60% ;
+    color:rgb(8, 0, 0)
+  }
+  
+  .cards.card> .contenido-texto-card h2{
+  text-align: center;
+  }
+  .cards.card> .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+  }
+  
+  
+  
+  .about-services{
+  background: #f2f2f2;
+  padding-bottom: 30px;
+  }
+  .servicio-cont{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .servicio-ind{
+    width: 28%;
+    text-align: center;
+  }
+  .servicio-ind img{
+    width: 90%;
+  
+  }
+  .servicio-ind img{
+    width: 90%;
+    position: center;
+  }
+  
+  footer{
+    background: #fa89e7;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  .contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    color: #070707;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .contenedor-footer h4{
+    color: aliceblue;
+    border-bottom: 3px solid;
+  
+  }
+  .contenedor-footer h4{
+    color: aliceblue;
+    border-bottom: 3px solid;
+  
+  }
+  .titulo{
+    text-align: center;
+    color: #070707;
+    
+  }
+  
+  .contenido-texto-consejo{
+    color: #f81963;
+    font-family: Simplified Arabic; 
+    text-align: center;
+    margin-right: 10px;
+    flex-direction: column;
+    font-family: 'Comic Sans MS';
+  }
+  .servicio-ind p{
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid beige;
+    border-radius:50px ;
+    display: block;
+  }
+  @media screen and (man-with: 800px) {
+   body{
+    width: 100%;
+   }
+   
+   
+    
+  }
+
+
